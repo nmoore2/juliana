@@ -1,0 +1,32 @@
+/*My Styles*/
+
+.jumbotron, #about  {
+	background: url('../assets/texture.jpg');	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+	#main-nav {
+		background: white;
+		color: black;
+	}
+}
+#contact {
+	background: rgba(0,0,0,0);
+	color: black;
+}
+
+.bl_form input, .bl_form textarea {
+	color: #000;
+}
+
+.top {
+	color: 000;
+
+} 
+
+.lb_label.active {
+	color: #000;
+	font-weight: normal;
+}
